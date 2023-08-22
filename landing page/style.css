@@ -1,0 +1,110 @@
+body{
+    font-family: 'Ubuntu', sans-serif;
+    text-align: center;
+}
+.container-fluid{
+    padding:3% 15% 3%;
+}
+
+/* navbar */
+.navbar{
+    padding:0 0 1rem;          /* top left+right bottom */
+
+}
+.nav-item{
+    padding:0px 18px;
+}
+
+
+
+/* Home page */
+
+#home{
+    text-align: left;
+    background-color: #71C9CE;
+    color:#fff;
+    padding:12% 15% 12%;
+}
+
+
+.heading{
+    font-family: 'Dancing Script', cursive;
+    font-size: 3.5rem;
+    line-height: 1.5;
+    font-weight: 900;
+}
+
+.homepgText{
+    font-size: 1rem;
+    line-height: 1.5;
+    font-weight: 500;
+    padding-right:30px;
+}
+
+
+.titleImg{
+    width:100%;
+    
+}
+
+/* Services */
+
+#services{
+    padding:15% 15% 12%;
+    line-height: 1.5;
+}
+
+.servicesColumn{
+    padding:50px 15px;
+}
+
+
+/* Testimonials */
+
+#testimonials{
+    background-color: #CBF1F5;
+}
+
+.carousel-item{
+    padding: 10% 15%;
+}
+.testimonialText{
+    font-size: 1.5rem;
+    line-height: 1.5;
+}
+.testimonialImg{
+    border-radius: 100%;
+    width:30%;
+    margin:30px;
+}
+
+/* Contacts */
+
+#contact{
+    padding:15% 15% 12%;
+    line-height: 1.5;
+    text-align: left;
+}
+.contactsImg{
+    float:right;
+    width:50%;
+    border-radius:5%;
+}
+.contactText{
+    font-size: 1.25rem;
+    line-height: 1;
+    padding:40px 0px;
+}
+
+/* Footer */
+
+#footer{
+    background-color: #71C9CE;
+    padding:7% 15%;
+    color:#fff;
+}
+
+.social-button{
+    margin:20px 10px;
+    color:#fff;    
+}
