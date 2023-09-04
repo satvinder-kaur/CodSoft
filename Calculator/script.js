@@ -15,8 +15,6 @@ function operation(key){
             document.querySelector(".dScreen").value=document.querySelector(".dScreen").value.toString().slice(0,-1);
         }
     else{
-        console.log(key);
         document.querySelector(".dScreen").value += key;
-        console.log(document.querySelector(".dScreen").value);
     }
 }
